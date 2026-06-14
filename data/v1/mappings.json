@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "updated_at": "2026-06-14T17:00:00Z",
+  "version": "1.3.0",
+  "updated_at": "2026-06-15T07:00:00Z",
   "notes": "ExpensAI data pack v1 — FX rates, merchant aliases, category seeds, and DLT sender mappings. Broadcast-only; no user data is ever sent to this file's host. Bump version on any breaking schema change.",
   "fx_rates": {
     "USD": 83.40,
@@ -436,6 +436,54 @@
       "name": "Zeta",
       "category": "meal_card",
       "dlt_codes": ["ZETAIN", "ZETA"]
+    },
+    {
+      "slug": "epfo",
+      "name": "EPFO",
+      "category": "investment",
+      "dlt_codes": ["EPFOHO", "EPFOIN", "EPFO"]
+    },
+    {
+      "slug": "cred",
+      "name": "CRED",
+      "category": "wallet",
+      "dlt_codes": ["CREDWL", "CREDCB", "CRED"]
+    },
+    {
+      "slug": "jio_fiber",
+      "name": "Jio Fiber",
+      "category": "utilities",
+      "dlt_codes": ["JIOFBR", "JIOFIB", "JIOHFB"]
+    },
+    {
+      "slug": "airtel_broadband",
+      "name": "Airtel",
+      "category": "telco",
+      "dlt_codes": ["AIRBIL", "AIRBLK", "AIRXST"]
+    },
+    {
+      "slug": "tata_aig",
+      "name": "Tata AIG",
+      "category": "insurance",
+      "dlt_codes": ["TATAIG", "TAIGIN"]
+    },
+    {
+      "slug": "niva_bupa",
+      "name": "Niva Bupa",
+      "category": "insurance",
+      "dlt_codes": ["NIVABU", "NIVAIN"]
+    },
+    {
+      "slug": "cleartrip",
+      "name": "Cleartrip",
+      "category": "travel",
+      "dlt_codes": ["CLEART", "CTRIPT"]
+    },
+    {
+      "slug": "makemytrip",
+      "name": "MakeMyTrip",
+      "category": "travel",
+      "dlt_codes": ["MMTHOL", "MMTPAY"]
     }
   ]
 }
