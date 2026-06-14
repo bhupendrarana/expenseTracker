@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "updated_at": "2026-06-14T12:00:00Z",
-  "notes": "ExpensAI data pack v1 — FX rates, merchant aliases, category seeds. Broadcast-only; no user data is ever sent to this file's host. Bump version on any breaking schema change.",
+  "version": "1.2.0",
+  "updated_at": "2026-06-14T17:00:00Z",
+  "notes": "ExpensAI data pack v1 — FX rates, merchant aliases, category seeds, and DLT sender mappings. Broadcast-only; no user data is ever sent to this file's host. Bump version on any breaking schema change.",
   "fx_rates": {
     "USD": 83.40,
     "EUR": 90.15,
@@ -418,5 +418,24 @@
     {"merchant": "Wint Wealth", "category": "mutual_funds"},
     {"merchant": "Groww MF", "category": "mutual_funds"}
   ],
-  "sender_mappings": []
+  "sender_mappings": [
+    {
+      "slug": "pluxee",
+      "name": "Pluxee Meal Card",
+      "category": "meal_card",
+      "dlt_codes": ["PLUXEE"]
+    },
+    {
+      "slug": "sodexo",
+      "name": "Sodexo Meal Card",
+      "category": "meal_card",
+      "dlt_codes": ["SDXOIN", "SDXBPC"]
+    },
+    {
+      "slug": "zeta",
+      "name": "Zeta",
+      "category": "meal_card",
+      "dlt_codes": ["ZETAIN", "ZETA"]
+    }
+  ]
 }
