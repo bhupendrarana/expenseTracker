@@ -21,6 +21,6 @@ jobs:
           echo "Purging: $url"
           resp="$(curl -sfS "$url")"
           echo "$resp"
-          echo "$resp" | grep -q '"status":"finished"' \
+          echo "$resp" | grep -qE '"status"[[:space:]]*:[[:space:]]*"finished"' \
             && echo "✅ jsDelivr cache purged" \
             || { echo "❌ purge did not report finished"; exit 1; }
