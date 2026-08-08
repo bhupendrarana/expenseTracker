@@ -1,0 +1,26 @@
+name: Purge jsDelivr cache
+
+# Whenever the data pack changes on main, purge jsDelivr's edge caches so the
+# app's @main URL serves the new mappings.json immediately (instead of waiting
+# up to ~12h for the CDN cache to expire).
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/v1/mappings.json'
+  workflow_dispatch: {}   # allow manual runs from the Actions tab
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr for mappings.json
+        run: |
+          set -euo pipefail
+          url="https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/data/v1/mappings.json"
+          echo "Purging: $url"
+          resp="$(curl -sfS "$url")"
+          echo "$resp"
+          echo "$resp" | grep -q '"status":"finished"' \
+            && echo "✅ jsDelivr cache purged" \
+            || { echo "❌ purge did not report finished"; exit 1; }
