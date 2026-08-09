@@ -1,6 +1,6 @@
 {
-  "version": "1.5.0",
-  "updated_at": "2026-08-04T00:00:00Z",
+  "version": "1.5.1",
+  "updated_at": "2026-08-09T00:00:00Z",
   "notes": "ExpensAI data pack v1 — FX rates, merchant aliases, category seeds, and DLT sender mappings. Broadcast-only; no user data is ever sent to this file's host. Bump version on any breaking schema change. v1.4.0: adds Rent, Insurance, Education, Subscriptions, Groceries categories; splits insurer/grocery seeds out of finance_emi/shopping.",
   "fx_rates": {
     "USD": 83.4,
@@ -1409,27 +1409,27 @@
     },
     {
       "merchant": "DigitalOcean",
-      "category": "utilities"
+      "category": "apps_software"
     },
     {
       "merchant": "Amazon Web Services",
-      "category": "utilities"
+      "category": "apps_software"
     },
     {
       "merchant": "Google Cloud",
-      "category": "utilities"
+      "category": "apps_software"
     },
     {
       "merchant": "GitHub",
-      "category": "utilities"
+      "category": "apps_software"
     },
     {
       "merchant": "OpenAI",
-      "category": "utilities"
+      "category": "apps_software"
     },
     {
       "merchant": "Anthropic",
-      "category": "utilities"
+      "category": "apps_software"
     },
     {
       "merchant": "Airtel",
@@ -1489,11 +1489,11 @@
     },
     {
       "merchant": "Apple",
-      "category": "entertainment"
+      "category": "apps_software"
     },
     {
       "merchant": "Google Play",
-      "category": "entertainment"
+      "category": "apps_software"
     },
     {
       "merchant": "BookMyShow",
@@ -2542,6 +2542,298 @@
     {
       "merchant": "Sapna Book House",
       "category": "shopping"
+    },
+    {
+      "merchant": "ChatGPT",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Claude",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Perplexity",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Midjourney",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Cursor",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Hugging Face",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Cohere",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Mistral AI",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Replit",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "ElevenLabs",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Runway",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Google",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "GOOGLESERVIS",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Google Play Store",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Google One",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Google Storage",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Google Workspace",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Google Ads",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Google Adwords",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Google Email Hosting",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Microsoft",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Office 365",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Azure",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Apple.com",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "iCloud",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "AWS",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Cloudflare",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Vercel",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Netlify",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Heroku",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Linode",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Oracle Cloud",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "GitLab",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Atlassian",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Jira",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Confluence",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Notion",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Figma",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Slack",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Zoom",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Dropbox",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Adobe",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Adobe Creative Cloud",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Canva",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Grammarly",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "1Password",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "LastPass",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Zapier",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Airtable",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Postman",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "JetBrains",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Docker",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Twilio",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "SendGrid",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Mailchimp",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "HubSpot",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Zoho",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Freshworks",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Evernote",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Trello",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Asana",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Monday.com",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Calendly",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Loom",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Miro",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Linear",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "GoDaddy",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Namecheap",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Hostinger",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Bluehost",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "WordPress",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Squarespace",
+      "category": "apps_software"
+    },
+    {
+      "merchant": "Wix",
+      "category": "apps_software"
     }
   ],
   "sender_mappings": [
