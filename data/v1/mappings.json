@@ -1,6 +1,6 @@
 {
-  "version": "1.5.1",
-  "updated_at": "2026-08-09T00:00:00Z",
+  "version": "1.5.2",
+  "updated_at": "2026-08-09T12:00:00Z",
   "notes": "ExpensAI data pack v1 — FX rates, merchant aliases, category seeds, and DLT sender mappings. Broadcast-only; no user data is ever sent to this file's host. Bump version on any breaking schema change. v1.4.0: adds Rent, Insurance, Education, Subscriptions, Groceries categories; splits insurer/grocery seeds out of finance_emi/shopping.",
   "fx_rates": {
     "USD": 83.4,
@@ -1261,15 +1261,15 @@
     },
     {
       "merchant": "MakeMyTrip",
-      "category": "transport"
+      "category": "travel"
     },
     {
       "merchant": "Goibibo",
-      "category": "transport"
+      "category": "travel"
     },
     {
       "merchant": "Yatra",
-      "category": "transport"
+      "category": "travel"
     },
     {
       "merchant": "RedBus",
@@ -2834,6 +2834,338 @@
     {
       "merchant": "Wix",
       "category": "apps_software"
+    },
+    {
+      "merchant": "Cleartrip",
+      "category": "travel"
+    },
+    {
+      "merchant": "EaseMyTrip",
+      "category": "travel"
+    },
+    {
+      "merchant": "ixigo",
+      "category": "travel"
+    },
+    {
+      "merchant": "Booking.com",
+      "category": "travel"
+    },
+    {
+      "merchant": "Agoda",
+      "category": "travel"
+    },
+    {
+      "merchant": "Expedia",
+      "category": "travel"
+    },
+    {
+      "merchant": "Trip.com",
+      "category": "travel"
+    },
+    {
+      "merchant": "IndiGo",
+      "category": "travel"
+    },
+    {
+      "merchant": "Vistara",
+      "category": "travel"
+    },
+    {
+      "merchant": "Air India",
+      "category": "travel"
+    },
+    {
+      "merchant": "SpiceJet",
+      "category": "travel"
+    },
+    {
+      "merchant": "Akasa Air",
+      "category": "travel"
+    },
+    {
+      "merchant": "AirAsia",
+      "category": "travel"
+    },
+    {
+      "merchant": "Emirates",
+      "category": "travel"
+    },
+    {
+      "merchant": "Qatar Airways",
+      "category": "travel"
+    },
+    {
+      "merchant": "Etihad Airways",
+      "category": "travel"
+    },
+    {
+      "merchant": "Singapore Airlines",
+      "category": "travel"
+    },
+    {
+      "merchant": "Lufthansa",
+      "category": "travel"
+    },
+    {
+      "merchant": "OYO",
+      "category": "travel"
+    },
+    {
+      "merchant": "OYO Rooms",
+      "category": "travel"
+    },
+    {
+      "merchant": "Airbnb",
+      "category": "travel"
+    },
+    {
+      "merchant": "Treebo",
+      "category": "travel"
+    },
+    {
+      "merchant": "FabHotels",
+      "category": "travel"
+    },
+    {
+      "merchant": "Taj Hotels",
+      "category": "travel"
+    },
+    {
+      "merchant": "Marriott",
+      "category": "travel"
+    },
+    {
+      "merchant": "Hyatt",
+      "category": "travel"
+    },
+    {
+      "merchant": "Radisson",
+      "category": "travel"
+    },
+    {
+      "merchant": "ITC Hotels",
+      "category": "travel"
+    },
+    {
+      "merchant": "Lemon Tree",
+      "category": "travel"
+    },
+    {
+      "merchant": "Ginger Hotels",
+      "category": "travel"
+    },
+    {
+      "merchant": "The Oberoi",
+      "category": "travel"
+    },
+    {
+      "merchant": "Novotel",
+      "category": "travel"
+    },
+    {
+      "merchant": "Ibis",
+      "category": "travel"
+    },
+    {
+      "merchant": "Thomas Cook",
+      "category": "travel"
+    },
+    {
+      "merchant": "SOTC",
+      "category": "travel"
+    },
+    {
+      "merchant": "Cox and Kings",
+      "category": "travel"
+    },
+    {
+      "merchant": "Amazon Prime",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Prime Video",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "YouTube Premium",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Apple TV",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Disney Plus",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "JioHotstar",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Audible",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Kindle",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Gaana",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Wynk Music",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "JioSaavn",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "MX Player",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Voot",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Discovery Plus",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Crunchyroll",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Steam",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "PlayStation",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Xbox",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Nintendo",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Epic Games",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "Ticketmaster",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "District by Zomato",
+      "category": "entertainment"
+    },
+    {
+      "merchant": "MedPlus",
+      "category": "health"
+    },
+    {
+      "merchant": "Tata 1mg",
+      "category": "health"
+    },
+    {
+      "merchant": "Apollo 247",
+      "category": "health"
+    },
+    {
+      "merchant": "Apollo Hospitals",
+      "category": "health"
+    },
+    {
+      "merchant": "Dr Lal PathLabs",
+      "category": "health"
+    },
+    {
+      "merchant": "Metropolis",
+      "category": "health"
+    },
+    {
+      "merchant": "Thyrocare",
+      "category": "health"
+    },
+    {
+      "merchant": "Medibuddy",
+      "category": "health"
+    },
+    {
+      "merchant": "Wellness Forever",
+      "category": "health"
+    },
+    {
+      "merchant": "Manipal Hospitals",
+      "category": "health"
+    },
+    {
+      "merchant": "Narayana Health",
+      "category": "health"
+    },
+    {
+      "merchant": "Cloudnine",
+      "category": "health"
+    },
+    {
+      "merchant": "Truemeds",
+      "category": "health"
+    },
+    {
+      "merchant": "HealthifyMe",
+      "category": "health"
+    },
+    {
+      "merchant": "Vodafone Idea",
+      "category": "telecom"
+    },
+    {
+      "merchant": "Vi Postpaid",
+      "category": "telecom"
+    },
+    {
+      "merchant": "Airtel Postpaid",
+      "category": "telecom"
+    },
+    {
+      "merchant": "Jio Postpaid",
+      "category": "telecom"
+    },
+    {
+      "merchant": "MTNL",
+      "category": "telecom"
+    },
+    {
+      "merchant": "Tata Play",
+      "category": "telecom"
+    },
+    {
+      "merchant": "Dish TV",
+      "category": "telecom"
+    },
+    {
+      "merchant": "d2h",
+      "category": "telecom"
+    },
+    {
+      "merchant": "Sun Direct",
+      "category": "telecom"
+    },
+    {
+      "merchant": "Airtel Digital TV",
+      "category": "telecom"
+    },
+    {
+      "merchant": "Airtel Xstream",
+      "category": "telecom"
     }
   ],
   "sender_mappings": [
