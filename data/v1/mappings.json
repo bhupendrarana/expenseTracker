@@ -1,6 +1,6 @@
 {
-  "version": "1.5.2",
-  "updated_at": "2026-08-09T12:00:00Z",
+  "version": "1.5.3",
+  "updated_at": "2026-08-25T12:00:00Z",
   "notes": "ExpensAI data pack v1 — FX rates, merchant aliases, category seeds, and DLT sender mappings. Broadcast-only; no user data is ever sent to this file's host. Bump version on any breaking schema change. v1.4.0: adds Rent, Insurance, Education, Subscriptions, Groceries categories; splits insurer/grocery seeds out of finance_emi/shopping.",
   "fx_rates": {
     "USD": 83.4,
@@ -1172,6 +1172,22 @@
     {
       "pattern": "goldsgym",
       "canonical": "Gold's Gym"
+    },
+    {
+      "pattern": "airbnb",
+      "canonical": "Airbnb"
+    },
+    {
+      "pattern": "airbnbpayments",
+      "canonical": "Airbnb"
+    },
+    {
+      "pattern": "bookingcom",
+      "canonical": "Booking.com"
+    },
+    {
+      "pattern": "bookingcomindia",
+      "canonical": "Booking.com"
     }
   ],
   "category_seeds": [
