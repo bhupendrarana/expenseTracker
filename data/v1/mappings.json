@@ -1,5 +1,5 @@
 {
-  "version": "1.5.4",
+  "version": "1.5.5",
   "updated_at": "2026-08-25T12:00:00Z",
   "notes": "ExpensAI data pack v1 — FX rates, merchant aliases, category seeds, and DLT sender mappings. Broadcast-only; no user data is ever sent to this file's host. Bump version on any breaking schema change. v1.4.0: adds Rent, Insurance, Education, Subscriptions, Groceries categories; splits insurer/grocery seeds out of finance_emi/shopping.",
   "fx_rates": {
@@ -24,6 +24,10 @@
     {
       "pattern": "district",
       "canonical": "District"
+    },
+    {
+      "pattern": "menmoms",
+      "canonical": "Me n Moms"
     },
     {
       "pattern": "ptmswiggyin",
@@ -1333,6 +1337,10 @@
     },
     {
       "merchant": "Amazon",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Me n Moms",
       "category": "shopping"
     },
     {
