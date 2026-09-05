@@ -1,5 +1,5 @@
 {
-  "version": "1.5.5",
+  "version": "1.5.6",
   "updated_at": "2026-08-25T12:00:00Z",
   "notes": "ExpensAI data pack v1 — FX rates, merchant aliases, category seeds, and DLT sender mappings. Broadcast-only; no user data is ever sent to this file's host. Bump version on any breaking schema change. v1.4.0: adds Rent, Insurance, Education, Subscriptions, Groceries categories; splits insurer/grocery seeds out of finance_emi/shopping.",
   "fx_rates": {
@@ -3198,6 +3198,370 @@
     {
       "merchant": "Airtel Xstream",
       "category": "telecom"
+    },
+    {
+      "merchant": "Jockey",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Raymond",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Blackberrys",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Spykar",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Mufti",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Pepe Jeans",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Flying Machine",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Wrangler",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Indian Terrain",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Park Avenue",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Monte Carlo",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Cantabil",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Being Human",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Numero Uno",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Rare Rabbit",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Bombay Shirt Company",
+      "category": "shopping"
+    },
+    {
+      "merchant": "FabAlley",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Powerlook",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Urbanic",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Newme",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Freakins",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Nobero",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Bonkers Corner",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Dennis Lingo",
+      "category": "shopping"
+    },
+    {
+      "merchant": "The Indian Garage Co",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Killer Jeans",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Status Quo",
+      "category": "shopping"
+    },
+    {
+      "merchant": "XYXX",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Rigo",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Asics",
+      "category": "shopping"
+    },
+    {
+      "merchant": "New Balance",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Bacca Bucci",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Neemans",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Khadims",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Paragon",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Red Chief",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Regal Shoes",
+      "category": "shopping"
+    },
+    {
+      "merchant": "MyGlamm",
+      "category": "shopping"
+    },
+    {
+      "merchant": "WOW Skin Science",
+      "category": "shopping"
+    },
+    {
+      "merchant": "mCaffeine",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Dot & Key",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Pilgrim",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Bella Vita",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Renee Cosmetics",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Colorbar",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Lakme",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Biotique",
+      "category": "shopping"
+    },
+    {
+      "merchant": "The Derma Co",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Foxtale",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Earth Rhythm",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Juicy Chemistry",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Chemist at Play",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Giva",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Voylla",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Candere",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Reliance Jewels",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Zaveri Pearls",
+      "category": "shopping"
+    },
+    {
+      "merchant": "PNG Jewellers",
+      "category": "shopping"
+    },
+    {
+      "merchant": "boAt",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Noise",
+      "category": "shopping"
+    },
+    {
+      "merchant": "OnePlus",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Girias",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Lot Mobiles",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Happi Mobiles",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Boult",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Duroflex",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Kurlon",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Nestasia",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Sleepycat",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Bombay Dyeing",
+      "category": "shopping"
+    },
+    {
+      "merchant": "The Wishing Chair",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Sleepyhead",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Safari",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Mokobara",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Nasher Miles",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Caprese",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Lavie",
+      "category": "shopping"
+    },
+    {
+      "merchant": "John Jacobs",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Specsmakers",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Coolwinks",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Baby Oye",
+      "category": "shopping"
+    },
+    {
+      "merchant": "R for Rabbit",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Luvlap",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Mee Mee",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Chicco",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Superbottoms",
+      "category": "shopping"
+    },
+    {
+      "merchant": "The Moms Co",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Vishal Mega Mart",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Citymall",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Bookswagon",
+      "category": "shopping"
+    },
+    {
+      "merchant": "WHSmith",
+      "category": "shopping"
     }
   ],
   "sender_mappings": [
