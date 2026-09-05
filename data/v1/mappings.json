@@ -1,5 +1,5 @@
 {
-  "version": "1.5.6",
+  "version": "1.5.7",
   "updated_at": "2026-08-25T12:00:00Z",
   "notes": "ExpensAI data pack v1 — FX rates, merchant aliases, category seeds, and DLT sender mappings. Broadcast-only; no user data is ever sent to this file's host. Bump version on any breaking schema change. v1.4.0: adds Rent, Insurance, Education, Subscriptions, Groceries categories; splits insurer/grocery seeds out of finance_emi/shopping.",
   "fx_rates": {
@@ -1196,6 +1196,370 @@
     {
       "pattern": "bookingcomindia",
       "canonical": "Booking.com"
+    },
+    {
+      "pattern": "jockey",
+      "canonical": "Jockey"
+    },
+    {
+      "pattern": "raymond",
+      "canonical": "Raymond"
+    },
+    {
+      "pattern": "blackberrys",
+      "canonical": "Blackberrys"
+    },
+    {
+      "pattern": "spykar",
+      "canonical": "Spykar"
+    },
+    {
+      "pattern": "mufti",
+      "canonical": "Mufti"
+    },
+    {
+      "pattern": "pepejeans",
+      "canonical": "Pepe Jeans"
+    },
+    {
+      "pattern": "flyingmachine",
+      "canonical": "Flying Machine"
+    },
+    {
+      "pattern": "wrangler",
+      "canonical": "Wrangler"
+    },
+    {
+      "pattern": "indianterrain",
+      "canonical": "Indian Terrain"
+    },
+    {
+      "pattern": "parkavenue",
+      "canonical": "Park Avenue"
+    },
+    {
+      "pattern": "montecarlo",
+      "canonical": "Monte Carlo"
+    },
+    {
+      "pattern": "cantabil",
+      "canonical": "Cantabil"
+    },
+    {
+      "pattern": "beinghuman",
+      "canonical": "Being Human"
+    },
+    {
+      "pattern": "numerouno",
+      "canonical": "Numero Uno"
+    },
+    {
+      "pattern": "rarerabbit",
+      "canonical": "Rare Rabbit"
+    },
+    {
+      "pattern": "bombayshirtcompany",
+      "canonical": "Bombay Shirt Company"
+    },
+    {
+      "pattern": "faballey",
+      "canonical": "FabAlley"
+    },
+    {
+      "pattern": "powerlook",
+      "canonical": "Powerlook"
+    },
+    {
+      "pattern": "urbanic",
+      "canonical": "Urbanic"
+    },
+    {
+      "pattern": "newme",
+      "canonical": "Newme"
+    },
+    {
+      "pattern": "freakins",
+      "canonical": "Freakins"
+    },
+    {
+      "pattern": "nobero",
+      "canonical": "Nobero"
+    },
+    {
+      "pattern": "bonkerscorner",
+      "canonical": "Bonkers Corner"
+    },
+    {
+      "pattern": "dennislingo",
+      "canonical": "Dennis Lingo"
+    },
+    {
+      "pattern": "theindiangarageco",
+      "canonical": "The Indian Garage Co"
+    },
+    {
+      "pattern": "killerjeans",
+      "canonical": "Killer Jeans"
+    },
+    {
+      "pattern": "statusquo",
+      "canonical": "Status Quo"
+    },
+    {
+      "pattern": "xyxx",
+      "canonical": "XYXX"
+    },
+    {
+      "pattern": "rigo",
+      "canonical": "Rigo"
+    },
+    {
+      "pattern": "asics",
+      "canonical": "Asics"
+    },
+    {
+      "pattern": "newbalance",
+      "canonical": "New Balance"
+    },
+    {
+      "pattern": "baccabucci",
+      "canonical": "Bacca Bucci"
+    },
+    {
+      "pattern": "neemans",
+      "canonical": "Neemans"
+    },
+    {
+      "pattern": "khadims",
+      "canonical": "Khadims"
+    },
+    {
+      "pattern": "paragon",
+      "canonical": "Paragon"
+    },
+    {
+      "pattern": "redchief",
+      "canonical": "Red Chief"
+    },
+    {
+      "pattern": "regalshoes",
+      "canonical": "Regal Shoes"
+    },
+    {
+      "pattern": "myglamm",
+      "canonical": "MyGlamm"
+    },
+    {
+      "pattern": "wowskinscience",
+      "canonical": "WOW Skin Science"
+    },
+    {
+      "pattern": "mcaffeine",
+      "canonical": "mCaffeine"
+    },
+    {
+      "pattern": "dotkey",
+      "canonical": "Dot & Key"
+    },
+    {
+      "pattern": "pilgrim",
+      "canonical": "Pilgrim"
+    },
+    {
+      "pattern": "bellavita",
+      "canonical": "Bella Vita"
+    },
+    {
+      "pattern": "reneecosmetics",
+      "canonical": "Renee Cosmetics"
+    },
+    {
+      "pattern": "colorbar",
+      "canonical": "Colorbar"
+    },
+    {
+      "pattern": "lakme",
+      "canonical": "Lakme"
+    },
+    {
+      "pattern": "biotique",
+      "canonical": "Biotique"
+    },
+    {
+      "pattern": "thedermaco",
+      "canonical": "The Derma Co"
+    },
+    {
+      "pattern": "foxtale",
+      "canonical": "Foxtale"
+    },
+    {
+      "pattern": "earthrhythm",
+      "canonical": "Earth Rhythm"
+    },
+    {
+      "pattern": "juicychemistry",
+      "canonical": "Juicy Chemistry"
+    },
+    {
+      "pattern": "chemistatplay",
+      "canonical": "Chemist at Play"
+    },
+    {
+      "pattern": "giva",
+      "canonical": "Giva"
+    },
+    {
+      "pattern": "voylla",
+      "canonical": "Voylla"
+    },
+    {
+      "pattern": "candere",
+      "canonical": "Candere"
+    },
+    {
+      "pattern": "reliancejewels",
+      "canonical": "Reliance Jewels"
+    },
+    {
+      "pattern": "zaveripearls",
+      "canonical": "Zaveri Pearls"
+    },
+    {
+      "pattern": "pngjewellers",
+      "canonical": "PNG Jewellers"
+    },
+    {
+      "pattern": "boat",
+      "canonical": "boAt"
+    },
+    {
+      "pattern": "noise",
+      "canonical": "Noise"
+    },
+    {
+      "pattern": "oneplus",
+      "canonical": "OnePlus"
+    },
+    {
+      "pattern": "girias",
+      "canonical": "Girias"
+    },
+    {
+      "pattern": "lotmobiles",
+      "canonical": "Lot Mobiles"
+    },
+    {
+      "pattern": "happimobiles",
+      "canonical": "Happi Mobiles"
+    },
+    {
+      "pattern": "boult",
+      "canonical": "Boult"
+    },
+    {
+      "pattern": "duroflex",
+      "canonical": "Duroflex"
+    },
+    {
+      "pattern": "kurlon",
+      "canonical": "Kurlon"
+    },
+    {
+      "pattern": "nestasia",
+      "canonical": "Nestasia"
+    },
+    {
+      "pattern": "sleepycat",
+      "canonical": "Sleepycat"
+    },
+    {
+      "pattern": "bombaydyeing",
+      "canonical": "Bombay Dyeing"
+    },
+    {
+      "pattern": "thewishingchair",
+      "canonical": "The Wishing Chair"
+    },
+    {
+      "pattern": "sleepyhead",
+      "canonical": "Sleepyhead"
+    },
+    {
+      "pattern": "safari",
+      "canonical": "Safari"
+    },
+    {
+      "pattern": "mokobara",
+      "canonical": "Mokobara"
+    },
+    {
+      "pattern": "nashermiles",
+      "canonical": "Nasher Miles"
+    },
+    {
+      "pattern": "caprese",
+      "canonical": "Caprese"
+    },
+    {
+      "pattern": "lavie",
+      "canonical": "Lavie"
+    },
+    {
+      "pattern": "johnjacobs",
+      "canonical": "John Jacobs"
+    },
+    {
+      "pattern": "specsmakers",
+      "canonical": "Specsmakers"
+    },
+    {
+      "pattern": "coolwinks",
+      "canonical": "Coolwinks"
+    },
+    {
+      "pattern": "babyoye",
+      "canonical": "Baby Oye"
+    },
+    {
+      "pattern": "rforrabbit",
+      "canonical": "R for Rabbit"
+    },
+    {
+      "pattern": "luvlap",
+      "canonical": "Luvlap"
+    },
+    {
+      "pattern": "meemee",
+      "canonical": "Mee Mee"
+    },
+    {
+      "pattern": "chicco",
+      "canonical": "Chicco"
+    },
+    {
+      "pattern": "superbottoms",
+      "canonical": "Superbottoms"
+    },
+    {
+      "pattern": "themomsco",
+      "canonical": "The Moms Co"
+    },
+    {
+      "pattern": "vishalmegamart",
+      "canonical": "Vishal Mega Mart"
+    },
+    {
+      "pattern": "citymall",
+      "canonical": "Citymall"
+    },
+    {
+      "pattern": "bookswagon",
+      "canonical": "Bookswagon"
+    },
+    {
+      "pattern": "whsmith",
+      "canonical": "WHSmith"
     }
   ],
   "category_seeds": [
