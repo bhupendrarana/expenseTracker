@@ -1,6 +1,6 @@
 {
-  "version": "1.5.7",
-  "updated_at": "2026-08-25T12:00:00Z",
+  "version": "1.5.8",
+  "updated_at": "2026-09-13T12:00:00Z",
   "notes": "ExpensAI data pack v1 — FX rates, merchant aliases, category seeds, and DLT sender mappings. Broadcast-only; no user data is ever sent to this file's host. Bump version on any breaking schema change. v1.4.0: adds Rent, Insurance, Education, Subscriptions, Groceries categories; splits insurer/grocery seeds out of finance_emi/shopping.",
   "fx_rates": {
     "USD": 83.4,
@@ -1563,6 +1563,42 @@
     }
   ],
   "category_seeds": [
+    {
+      "merchant": "MINISO",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Market 99",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Mumuso",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Ilem Japan",
+      "category": "shopping"
+    },
+    {
+      "merchant": "MUJI",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Archies",
+      "category": "shopping"
+    },
+    {
+      "merchant": "1 India Family Mart",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Citykart",
+      "category": "shopping"
+    },
+    {
+      "merchant": "Style Bazaar",
+      "category": "shopping"
+    },
     {
       "merchant": "Swiggy",
       "category": "food_dining"
